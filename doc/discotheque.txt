@@ -1,7 +1,7 @@
-*discotheque.txt*	TODO
+*discotheque.txt*	Strongly emphasize pieces of text
 
 ==============================================================================
-CONTENTS                                        *discotheque*   *discotheque-contents*
+CONTENTS                                    *discotheque*   *discotheque-contents*
 
     Installation................................: |discotheque-installation|
     Usage.......................................: |discotheque-usage|
@@ -11,7 +11,7 @@ CONTENTS                                        *discotheque*   *discotheque-con
 
 
 ==============================================================================
-INSTALLATION                                            *discotheque-installation*
+INSTALLATION                                          *discotheque-installation*
 
 There are several ways to install the plugin. The recommended one is by using
 Tim Pope's pathogen (http://www.vim.org/scripts/script.php?script_id=2332). In
@@ -27,28 +27,30 @@ The command is (provided you're in ~/.vim):
 <
 
 Another way is to simply copy all the essential directories inside the ~/.vim
-directory: TODO list of directories
+directory: autoload, doc, plugin.
 
 
 ==============================================================================
-USAGE                                                          *discotheque-usage*
+USAGE                                                        *discotheque-usage*
 
-TODO
+Just run the main command with a Vim regex:
 
+>
+    :Disco some_variable_name
+    :Disco +
+    :Disco unsafe {\_.\{-}}
+<
+
+When moving the cursor, the colors of the highlighted text will toggle between
+blue and red. To stop the highlighting, just run the command with no
+arguments:
+
+>
+    :Disco
+<
 
 ==============================================================================
-SETTINGS                                                    *discotheque-settings*
-
-TODO
-
-
-==============================================================================
-INTERNALS                                                  *discotheque-internals*
-
-TODO
-
-==============================================================================
-ISSUES                                                        *discotheque-issues*
+ISSUES                                                      *discotheque-issues*
 
 Any issues and suggestions are very welcome on the github bugtracker:
 https://github.com/AndrewRadev/discotheque.vim/issues
