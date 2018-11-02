@@ -1,29 +1,29 @@
-*disco.txt*	TODO
+*discotheque.txt*	TODO
 
 ==============================================================================
-CONTENTS                                        *disco*   *disco-contents*
+CONTENTS                                        *discotheque*   *discotheque-contents*
 
-    Installation................................: |disco-installation|
-    Usage.......................................: |disco-usage|
-    Settings....................................: |disco-settings|
-    Internals...................................: |disco-internals|
-    Issues......................................: |disco-issues|
+    Installation................................: |discotheque-installation|
+    Usage.......................................: |discotheque-usage|
+    Settings....................................: |discotheque-settings|
+    Internals...................................: |discotheque-internals|
+    Issues......................................: |discotheque-issues|
 
 
 ==============================================================================
-INSTALLATION                                            *disco-installation*
+INSTALLATION                                            *discotheque-installation*
 
 There are several ways to install the plugin. The recommended one is by using
 Tim Pope's pathogen (http://www.vim.org/scripts/script.php?script_id=2332). In
 that case, you can clone the plugin's git repository like so:
 >
-    git clone https://github.com/AndrewRadev/disco.vim ~/.vim/bundle/disco
+    git clone https://github.com/AndrewRadev/discotheque.vim ~/.vim/bundle/discotheque
 <
 If your vim configuration is under git version control, you could also set up
 the repository as a submodule, which would allow you to update more easily.
 The command is (provided you're in ~/.vim):
 >
-    git submodule add https://github.com/AndrewRadev/disco.vim bundle/disco
+    git submodule add https://github.com/AndrewRadev/discotheque.vim bundle/discotheque
 <
 
 Another way is to simply copy all the essential directories inside the ~/.vim
@@ -31,27 +31,27 @@ directory: TODO list of directories
 
 
 ==============================================================================
-USAGE                                                          *disco-usage*
+USAGE                                                          *discotheque-usage*
 
 TODO
 
 
 ==============================================================================
-SETTINGS                                                    *disco-settings*
+SETTINGS                                                    *discotheque-settings*
 
 TODO
 
 
 ==============================================================================
-INTERNALS                                                  *disco-internals*
+INTERNALS                                                  *discotheque-internals*
 
 TODO
 
 ==============================================================================
-ISSUES                                                        *disco-issues*
+ISSUES                                                        *discotheque-issues*
 
 Any issues and suggestions are very welcome on the github bugtracker:
-https://github.com/AndrewRadev/disco.vim/issues
+https://github.com/AndrewRadev/discotheque.vim/issues
 
 
 vim:tw=78:sw=4:ft=help:norl:
